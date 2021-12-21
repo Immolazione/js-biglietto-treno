@@ -33,7 +33,10 @@ if (userAge < 18) {
 }
 
 //4
-console.log(ticketPrice)
+console.log(ticketPrice);
 
-document.getElementById('age').innerHTML = userAge;
+const displayAge = document.getElementById('age');
+displayAge.innerHTML = `${userAge} €`;
+
 const displayKm = document.getElementById('kms');
+displayKm.innerHTML = `${userKm} Km`
