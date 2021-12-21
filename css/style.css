@@ -3,3 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    background-image: url(../img/thomascgi_custom-fa1741025b00f1e188b3a31914a4d6e60afe528c.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
