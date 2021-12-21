@@ -38,7 +38,7 @@ if (userAge < 18) {
 }
 
 //4
-console.log(`ticketPrice: ${ticketPrice.toFixed(2)}`);
+console.log(`ticketPrice: ${ticketPrice.toFixed(2)} €`);
 
 const displayAge = document.getElementById('age');
 displayAge.innerHTML = `Età Passeggero: ${userAge} anni`;
