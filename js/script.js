@@ -38,7 +38,7 @@ if (userAge < 18) {
 }
 
 //4
-console.log(`ticketPrice: ${ticketPrice}`);
+console.log(`ticketPrice: ${ticketPrice.toFixed(2)}`);
 
 const displayAge = document.getElementById('age');
 displayAge.innerHTML = `Età Passeggero: ${userAge} anni`;
@@ -47,4 +47,4 @@ const displayKm = document.getElementById('kms');
 displayKm.innerHTML = `Km Percorsi: ${userKm} Km`;
 
 const displayPrice = document.getElementById('price');
-displayPrice.innerHTML = `Prezzo Totale: ${ticketPrice} €`
+displayPrice.innerHTML = `Prezzo Totale: ${ticketPrice.toFixed(2)} €`
