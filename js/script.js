@@ -22,7 +22,7 @@ const userKm = parseInt(prompt('Quanti chilometri vuoi percorrere?', '100').trim
 console.log(userKm);
 
 // 3
-let ticketPrice = 0.21 * userKm;
+const ticketPrice = 0.21 * userKm;
 const youngDiscount = (ticketPrice * 20) / 100;
 const elderDiscount = (ticketPrice * 40) / 100;
 
