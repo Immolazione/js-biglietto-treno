@@ -35,3 +35,5 @@ if (userAge < 18) {
 //4
 console.log(ticketPrice)
 
+document.getElementById('age').innerHTML = userAge;
+const displayKm = document.getElementById('kms');
