@@ -9,3 +9,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.row > div {
+    border: 2px dashed white;
+}
