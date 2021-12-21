@@ -26,11 +26,12 @@ const ticketPrice = 0.21 * userKm;
 const youngDiscount = (ticketPrice * 20) / 100;
 const elderDiscount = (ticketPrice * 40) / 100;
 
-
 if (userAge < 18) {
     ticketPrice = ticketPrice - youngDiscount;
 } else if (userAge > 65) {
     ticketPrice = ticketPrice - elderDiscount;
 }
 
+//4
 console.log(ticketPrice)
+
