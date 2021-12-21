@@ -14,3 +14,23 @@ va applicato uno sconto del 40% per gli over 65.
 3- Calcolare il prezzo del viaggio con gli sconti
 4- Print
 */
+
+// 1-2
+const userAge = parseInt(prompt('Quanti anni hai?', '24').trim());
+console.log(userAge);
+const userKm = parseInt(prompt('Quanti chilometri vuoi percorrere?', '100').trim());
+console.log(userKm);
+
+// 3
+let ticketPrice = 0.21 * userKm;
+const youngDiscount = (ticketPrice * 20) / 100;
+const elderDiscount = (ticketPrice * 40) / 100;
+
+
+if (userAge < 18) {
+    ticketPrice = ticketPrice - youngDiscount;
+} else if (userAge > 65) {
+    ticketPrice = ticketPrice - elderDiscount;
+}
+
+console.log(ticketPrice)
