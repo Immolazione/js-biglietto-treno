@@ -22,7 +22,7 @@ const userKm = parseInt(prompt('Quanti chilometri vuoi percorrere?', '100').trim
 console.log(userKm);
 
 // 3
-const ticketPrice = 0.21 * userKm;
+let ticketPrice = 0.21 * userKm;
 const youngDiscount = (ticketPrice * 20) / 100;
 const elderDiscount = (ticketPrice * 40) / 100;
 
@@ -39,4 +39,7 @@ const displayAge = document.getElementById('age');
 displayAge.innerHTML = `${userAge} €`;
 
 const displayKm = document.getElementById('kms');
-displayKm.innerHTML = `${userKm} Km`
+displayKm.innerHTML = `${userKm} Km`;
+
+const displayPrice = document.getElementById('price');
+displayPrice.innerHTML = `${ticketPrice} €`
